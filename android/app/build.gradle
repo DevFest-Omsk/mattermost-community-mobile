@@ -100,7 +100,7 @@ android {
     ndkVersion rootProject.ext.ndkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdkVersion rootProject.ext.compileSdkVersion
-    namespace "com.mattermost.rnbeta"
+    namespace "ru.devfestomsk.community"
 
     lintOptions {
         checkReleaseBuilds false
@@ -108,7 +108,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.mattermost.rnbeta"
+        applicationId "ru.devfestomsk.community"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 555
@@ -119,12 +119,10 @@ android {
 
     signingConfigs {
         release {
-            if (project.hasProperty('MATTERMOST_RELEASE_STORE_FILE')) {
-                storeFile file(MATTERMOST_RELEASE_STORE_FILE)
-                storePassword MATTERMOST_RELEASE_PASSWORD
-                keyAlias MATTERMOST_RELEASE_KEY_ALIAS
-                keyPassword MATTERMOST_RELEASE_PASSWORD
-            }
+            storeFile file('./dev-fest.keystore')
+            storePassword '(YyzU$EL'
+            keyAlias 'key0'
+            keyPassword '(YyzU$EL'
         }
         debug {
             storeFile file('debug.keystore')

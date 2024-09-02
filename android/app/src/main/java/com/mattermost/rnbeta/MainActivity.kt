@@ -10,6 +10,8 @@ import com.mattermost.hardware.keyboard.MattermostHardwareKeyboardImpl
 import com.mattermost.rnutils.helpers.FoldableObserver
 import com.reactnativenavigation.NavigationActivity
 import expo.modules.ReactActivityDelegateWrapper
+import ru.devfestomsk.community.BuildConfig
+import ru.devfestomsk.community.R
 
 class MainActivity : NavigationActivity() {
     private var HWKeyboardConnected = false
