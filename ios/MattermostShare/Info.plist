@@ -5,7 +5,7 @@
 	<key>AppGroupIdentifier</key>
 	<string>group.ru.devfestomsk.community</string>
 	<key>CFBundleDisplayName</key>
-	<string>DevFest Community</string>
+	<string>DevFest</string>
 	<key>CFBundleIdentifier</key>
 	<string>ru.devfestomsk.community.MattermostShare</string>
 	<key>NSAppTransportSecurity</key>
