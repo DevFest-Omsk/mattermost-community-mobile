@@ -3,7 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>AppGroupIdentifier</key>
-	<string>group.com.mattermost.rnbeta</string>
+	<string>group.ru.devfestomsk.community</string>
+	<key>CFBundleDisplayName</key>
+	<string>DevFest Community</string>
+	<key>CFBundleIdentifier</key>
+	<string>ru.devfestomsk.community.MattermostShare</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
